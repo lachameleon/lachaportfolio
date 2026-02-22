@@ -1,0 +1,15 @@
+.badge-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.badge-list > a > img {
+    image-rendering: pixelated;
+}
+
+.badge-list > a > img:hover {
+    margin: -1px;
+    border: 1px solid #fff;
+}

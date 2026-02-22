@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lach's site</title>
+    <link rel="stylesheet" href="files/base.css" />
+    <link rel="stylesheet" href="files/hljs.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta content="lach's site" property="og:title" />
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="6c6e1532-c888-4f12-8546-db4c92d49039"
+    ></script>
+    <link rel="stylesheet" href="files/home.css" />
+  </head>
+
+  <body>
+    <img
+      src="https://analytics.kibty.town/visitor-satisfaction"
+      style="width: 0px; height: 0px; display: none"
+    />
+
+    <div class="main">
+      <div>
+        <nav class="nav">
+          <a href="https://lacha.dev/">home</a>
+          <a href="https://discord.gg/qsTmkE7V5F">blog</a>
+          <a href="mailto:lachameleondev@outlook.com">contact me</a>
+        </nav>
+
+        <div>
+          <h1 style="color: #00ff00;">hi, im lach</h1>
+          <p>amateur dev, pentester, and maybe going machine learning professional</p>
+          <p>i mostly mess around and find out that the corporate people forgot what ratelimits are</p>
+
+          <h2>projects</h2>
+          <p>most of my projects are on <a href="https://github.com/lachameleon">github</a> and only like 10 repos are private. i have about 100 out there for you :D</p>
+          <p>i also do some cool stuff on dc</p>
+          <p>stuff i code:</p>
+
+          <ul>
+            <li>
+              <a href="https://github.com/lachadev/chameleonshell">chameleonshell</a>: server scanning inc is a
+              community of nerds that got together with the liveoverflow minecraft server, from there people developed
+              tools to scan for minecraft servers, nowadays its generally a place where nerds hang out.
+            </li>
+            <li>
+              <a href="https://github.com/lachameleon/epstein-llm">epstein llm</a>: a tinyllama LoRA adapter that was trained off the epstein files.  
+              <li>
+              <a href="https://github.com/lachameleon/n0mad">nomad</a>: a bare bones chat client where everything possible is processed client side.
+            </li>
+            <li>
+              <a href="https://github.com/lachameleon/blissclient"><span style="color: #ffb3d9;">bliss client</span></a>: bliss is a fork of meteor client, removing server illegal modules, and porting over qol (quality of life) modules from popular meteor addons.
+            </li>
+          </ul>
+
+          <!-- friends section in template -->
+        </div>
+
+        <h2>friends</h2>
+        <section class="badge-list">
+<a href="https://www.palantir.com">
+  <img src="files/img/buttons/palantir-badge.png" alt="Palantir" style="max-width: 88px;"/>
+</a>
+
+<a href="https://openai.com">
+  <img src="files/img/buttons/openai-badge.png" alt="OpenAI" style="max-width: 88px;"/>
+</a>
+
+<a href="https://www.anthropic.com">
+  <img src="files/img/buttons/anthropic-badge.png" alt="Anthropic" style="max-width: 88px;"/>
+</a>
+
+<a href="https://mistral.ai">
+  <img src="files/img/buttons/mistral-badge.png" alt="Mistral AI" style="max-width: 88px;" />
+</a>
+        </section>
+      </div>
+
+      <footer>
+        <p>© 2025 lach</p>
+      </footer>
+    </div>
+
+    <script>
+      const originalTitle = "lach's site";
+      let scrollIndex = 0;
+      
+      function scrollTitle() {
+        const scrollText = originalTitle + "        ";
+        document.title = scrollText.substring(scrollIndex) + scrollText.substring(0, scrollIndex);
+        scrollIndex = (scrollIndex + 1) % scrollText.length;
+      }
+      
+      setInterval(scrollTitle, 100);
+    </script>
+  </body>
+</html>
